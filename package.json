@@ -1,5 +1,5 @@
 {
-  "name": "Appointment_Scheduler",
+  "name": "Project2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,11 +7,17 @@
     "test": "jest"
   },
   "dependencies": {
-    "native-base": "^2.4.4",
+    "nachos-ui": "^0.1.2",
+    "native-base": "^2.4.3",
     "react": "16.3.1",
-    "react-native": "0.55.4",
+    "react-native": "0.55.3",
     "react-native-datepicker": "^1.7.2",
-    "react-native-simple-time-picker": "^0.2.0"
+    "react-native-elements": "^0.19.1",
+    "react-native-material-ui": "^1.22.3",
+    "react-native-simple-time-picker": "^0.2.0",
+    "react-native-timepicker": "^1.0.3",
+    "react-native-vector-icons": "^4.6.0",
+    "react-number-format": "^3.3.4"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",

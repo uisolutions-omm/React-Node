@@ -12,18 +12,8 @@ import {
   View,Image,StatusBar
 } from 'react-native';
 import Login from './src/components/Login'
-import { COLOR, ThemeProvider } from 'react-native-material-ui';
+import SignUp from './src/components/SignUp'
 
-const uiTheme = {
-    palette: {
-        primaryColor: COLOR.green500,
-    },
-    toolbar: {
-        container: {
-            height: 50,
-        },
-    },
-};
 type Props = {};
 export default class App extends Component<Props> {
   render() {
